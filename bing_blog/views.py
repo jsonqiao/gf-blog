@@ -24,6 +24,7 @@ def home_page(request):
     posts = Post.objects.filter(status='1');
     paginator = Paginator(posts, 20)  # 每页20条
     pageNo = request.GET.get("pageNo");
+
     try:
         posts = paginator.page(pageNo)
     except PageNotAnInteger:  # 页码不是整数
