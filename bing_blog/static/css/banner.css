@@ -1,0 +1,47 @@
+.banner {
+    background: url(../images/banner_top.jpg) top center;
+    height: 265px;
+    overflow: hidden;
+}
+
+.box {
+    width: 100%;
+    height: 100%;
+    padding-left: 145px;
+}
+
+.text {
+    padding-left: 20px;
+    padding-top: 70px;
+    font-size: 14px;
+}
+
+.text p {
+    line-height: 26px;
+    transform: translate(60px);
+    text-shadow: 1px 1px 0 rgba(255, 255, 255, 0.8), 2px 2px 3px rgba(180, 151, 151, 0.3);
+}
+
+.text p:nth-child(1) {
+    -webkit-animation: animations 3s ease-out 1s backwards;
+    -moz-animation: animations 3s ease-out 1s backwards;
+    -o-animation: animations 3s ease-out 1s backwards;
+    -ms-animation: animations 3s ease-out 1s backwards;
+    animation: animations 3s ease-out 1s backwards;
+}
+
+.text p:nth-child(2) {
+    -webkit-animation: animations 3s ease-out 4s backwards;
+    -moz-animation: animations 3s ease-out 4s backwards;
+    -o-animation: animations 3s ease-out 4s backwards;
+    -ms-animation: animations 3s ease-out 4s backwards;
+    animation: animations 3s ease-out 4s backwards;
+}
+
+.text p:nth-child(3) {
+    -webkit-animation: animations2 5s ease-in-out 7s backwards;
+    -moz-animation: animations2 5s ease-in-out 7s backwards;
+    -o-animation: animations2 5s ease-in-out 7s backwards;
+    -ms-animation: animations2 5s ease-in-out 7s backwards;
+    animation: animations2 5s ease-in-out 7s backwards;
+}
