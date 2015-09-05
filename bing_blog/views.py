@@ -16,7 +16,7 @@ from models import Post
 logger = logging.getLogger(__name__)
 
 # 博客首页
-def home_page(request):
+def index(request):
     """
     分页查询博客 status = 1 已发布的
     :param request:
