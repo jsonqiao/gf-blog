@@ -36,3 +36,20 @@ h3 {
     -webkit-margin-end: 0px;
     font-weight: bold;
 }
+
+.control {
+    padding: 0 145px;
+    display: block;
+}
+
+.clear:after {
+    content: "";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+.clear {
+    zoom: 1;
+}
