@@ -37,6 +37,16 @@ def index(request):
 
     return render_to_response('index.html', {'post': posts})
 
+# 文章详情
+def post_detail(request, post_id):
+    """
+    获取博客详情
+    :param request:
+    :param blog_id: 博客id
+    :return:
+    """
+    post = Post.objects.filter(id_exact=post_id)
+    return render_to_response('blog_detail.html', {'post_detail': post})
 
 def hello(requet):
     return HttpResponse("Hello World")
